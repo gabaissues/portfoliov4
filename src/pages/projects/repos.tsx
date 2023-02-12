@@ -1,6 +1,7 @@
 import FooterComponent from "@/components/global/Footer";
 import IRepo from "@/interfaces/repos";
 import axios from "axios";
+import Head from "next/head";
 import React, { Fragment } from "react";
 
 import * as G from "../../styles/ReposPage.styles";
@@ -21,7 +22,10 @@ interface Props {
 
 export default function Repos({ repos }: Props) {
   return (
-    <div>
+    <Fragment>
+      <Head>
+        <title>Gaba - Repos</title>
+      </Head>
       <G.Header id="header">
         <G.TextFixed href="/" right="2.5rem" top="2.5rem">
           Developer
@@ -73,6 +77,6 @@ export default function Repos({ repos }: Props) {
       </G.Main>
 
       <FooterComponent />
-    </div>
+    </Fragment>
   );
 }

@@ -1,6 +1,7 @@
 import FooterComponent from "@/components/global/Footer";
 import IProject from "@/interfaces/projects";
 import axios from "axios";
+import Head from "next/head";
 import React, { Fragment } from "react";
 
 import * as G from "../../styles/ProjectsPage.styles";
@@ -25,6 +26,9 @@ interface Props {
 export default function Projects({ projects }: Props) {
   return (
     <Fragment>
+      <Head>
+        <title>Gaba - Projects</title>
+      </Head>
       <G.Header id="header">
         <G.TextFixed href="/" right="2.5rem" top="2.5rem">
           Developer

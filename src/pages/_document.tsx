@@ -50,7 +50,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" type="image/x-icon" href="/assets/fav.ico"></link>
-          <meta name="description" content="Página inicial do meu portfólio" />
+          <meta name="description" content="Portfólio de desenvolvedor" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
