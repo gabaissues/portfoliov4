@@ -37,6 +37,8 @@ export const Cards = styled.div`
     margin-top: 2rem;
     align-items: center;
     justify-content: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 `;
 export const Card = styled.div`

@@ -78,6 +78,7 @@ export const Card = styled.div`
   }
   @media (max-width: 800px) {
     margin-left: 1rem;
+    height: 25rem;
     margin-right: 1rem;
   }
 `;

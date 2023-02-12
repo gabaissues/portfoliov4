@@ -10,6 +10,7 @@ export const Header = styled.header`
 
   @media (max-width: 800px) {
     > h1 {
+      text-align: center;
       font-size: 1.2rem;
     }
     margin-top: 10rem;

@@ -14,7 +14,7 @@ export const Footer = styled.footer`
 
     h1 {
       text-align: center;
-      margin-bottom: 1rem;
+      margin: 0rem 2.5rem 1rem 2.5rem;
     }
     
 }
