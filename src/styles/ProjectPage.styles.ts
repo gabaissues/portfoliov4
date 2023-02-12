@@ -28,6 +28,12 @@ export const Paragraph = styled.p`
   color: #fafafa;
   width: 50rem;
   margin-bottom: 2rem;
+
+  @media(max-width: 800px) {
+
+    width: 100%;
+
+  }
 `
 
 export const Back = styled.a`
