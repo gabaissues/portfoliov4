@@ -16,9 +16,9 @@ const FormationsComponent = () => {
       <G.Divider></G.Divider>
 
       <G.List>
-        <G.Item>Origamid - JavaScript</G.Item>
-        <G.Item>Origamid - UI Design</G.Item>
-        <G.Item>Origamid - Javascript Funcional e Reativo</G.Item>
+        <G.Item>Origamid - JavaScript (Pendente)</G.Item>
+        <G.Item>Origamid - UI Design (Finalizando)</G.Item>
+        <G.Item>Udemy - Javascript Funcional e Reativo (Finalizando)</G.Item>
         <G.Item>DankiCode - WebDesign</G.Item>
       </G.List>
     </G.Formations>

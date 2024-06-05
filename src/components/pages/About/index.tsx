@@ -6,9 +6,9 @@ const formatTime = (time: number) => {
   const dateLast = new Date(time, 0, 1);
 
   const difference = dateCurrent.getTime() - dateLast.getTime();
-  const date = Math.floor(difference / (1000 * 60 * 60 * 24))
+  const date = Math.floor(difference / (1000 * 60 * 60 * 24)) / 31 / 12
 
-  return date
+  return date.toLocaleString('pt-br', { maximumFractionDigits: 1 })
 };
 
 const AboutComponent = () => {
@@ -25,7 +25,7 @@ const AboutComponent = () => {
       </G.Text>
       <G.Paragraph>
         Gaba é um apelido que minha melhor amiga me deu, desde então uso pra
-        tudo. Gaba é desenvolvedor há mais de 4 anos, e UI/UX Designer a 2.
+        tudo. Gaba é desenvolvedor há mais de 6 anos, e UI/UX Designer a 3.
         Sempre fui estudando através de cursos (DankiCode), até que desisti e
         aprendi a ler documentações. Desde então só aprendo assim. Mas sempre
         vou atrás de um tutorial ou um curso mesmo para aprender um pouco mais
@@ -60,7 +60,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2018)} dias.
+              {formatTime(2018)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -81,7 +81,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2018)} dias.
+              {formatTime(2018)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -102,7 +102,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2018)} dias.
+              {formatTime(2018)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -123,7 +123,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2019)} dias.
+              {formatTime(2019)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -144,7 +144,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2019)} dias.
+              {formatTime(2019)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -165,7 +165,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2022)} dias.
+              {formatTime(2022)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -186,7 +186,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2020)} dias.
+              {formatTime(2020)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -207,7 +207,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2020)} dias.
+              {formatTime(2020)} ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
@@ -228,7 +228,7 @@ const AboutComponent = () => {
               color="#fafafa"
               fontSize="1rem"
             >
-              {formatTime(2021)}  dias.
+              {formatTime(2021)}  ano(s).
             </G.Text>
           </G.CardContent>
         </G.Card>
