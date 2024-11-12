@@ -6,18 +6,38 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #3A3A3A;
+  background-color: #3a3a3a;
   width: 100%;
   padding: 3.875rem 0rem;
 
-  @media(max-width: 800px) {
-
+  @media (max-width: 800px) {
     h1 {
       text-align: center;
       margin: 0rem 2.5rem 1rem 2.5rem;
     }
-    
-}
+  }
+
+  > div {
+    ul {
+      display: flex;
+      margin-top: 1rem;
+
+      li {
+        margin-right: 1rem;
+
+        svg {
+          width: 40px;
+          height: 40px;
+        }
+
+        padding: .5rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
 `;
 export const Up = styled.a`
   display: flex;

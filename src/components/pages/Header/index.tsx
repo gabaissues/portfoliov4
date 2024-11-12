@@ -27,7 +27,7 @@ const HeaderComponent = ({ projects }: Props) => {
         {projects.slice(0, 3).map((project) => (
           <Fragment key={project._id}>
             <G.Card>
-              <G.Paragraph>{project.description}</G.Paragraph>
+              <G.Paragraph>{project.description.split(" ").slice(0, 30).join(" ")}...</G.Paragraph>
               <G.CardBottom>
                 <G.Text fontSize="1.5rem" color="#FAFAFA" fontWeight="600">
                   {project.name}
