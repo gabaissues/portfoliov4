@@ -9,7 +9,7 @@ const FooterComponent = () => {
         Antônio Gabriel, ou melhor, Gaba! É um prazer ter você aqui :)
       </G.Text>
       <G.Text color="#fafafa" fontWeight="500" fontSize="1rem">
-        contato@gabaisuses.com
+        contato@gabaissues.com
       </G.Text>
 
       <div>
